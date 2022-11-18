@@ -1,0 +1,21 @@
+.border_bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+.title_bar {
+	padding: 13px 30px 13px 15px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 500;
+}
+.body_text {
+	text-align: left;
+	padding: 10px 15px;
+	border: 1px solid #d0d0d0;
+	position: relative;
+	border-radius: 0 0 3px 3px;
+	border-top: 0;
+    margin-top: -10px;
+}

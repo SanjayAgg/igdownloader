@@ -1,0 +1,90 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-clr: #fff;
+  --text-clr: #1f1f1f;
+
+  --ft: "Montserrat", sans-serif;
+  --ft-medium: 500;
+  --ft-semi-bold: 600;
+  --ft-bold: 700;
+
+  --primary-clr: #37474f;
+  --primary-clr-100: #cfd8dc;
+  --primary-clr-200: #b0bec5;
+  --primary-clr-light: #eceff1;
+}
+
+html,
+body {
+  font-family: var(--ft);
+  color: var(--text-clr);
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 110%;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 110%;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 110%;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.image-gallery-svg {
+	height: 40px !important;
+	width: 20px !important;
+}
+
+.image-gallery-thumbnails-wrapper {
+	display: none;
+}

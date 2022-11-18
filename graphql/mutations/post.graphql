@@ -1,0 +1,9 @@
+mutation post($url:String!){
+  post(url:$url){
+    img
+    text
+    hashtag
+    video
+    success
+  }
+}
